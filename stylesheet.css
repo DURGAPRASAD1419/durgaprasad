@@ -10,7 +10,7 @@
     color: #fff;
 }
 body{
-    background: #0f0a0a;
+    background:#111111;
     height: 100vh;
 }
 html{
@@ -36,7 +36,7 @@ html{
     font-size: 2.9rem;
     font-weight: 600;
     text-decoration: none;
-    color: #fff;
+    color: #E0A200;
     transform: translateX(-100%);
     opacity: 0;
     animation: RightSlide 1s ease forwards;
@@ -53,7 +53,7 @@ html{
 }
 
 #menu{
-    color: #fff;
+    color: #E0A200;
     font-size: 2.5rem;
     display: none;
 }
@@ -81,7 +81,7 @@ html{
     }
 }
 .navbar a:hover,.navbar a.active{
-    color: #0ef;
+    color: #E0A200;
 }
 section{
     padding: 10rem 9% 2rem;
@@ -100,7 +100,7 @@ section{
 }
 .text-content h1{
     font-size: 5rem;
-    color: #fff;
+    color:white;
     text-transform: capitalize;
     letter-spacing: .05rem;
     font-weight: 600;
@@ -117,8 +117,8 @@ section{
     font-size: 3.2rem;
     font-weight: 700;
     color: transparent;
-    -webkit-text-stroke: .7px #0ef;
-    background: linear-gradient(#0ef,#0ef);
+    -webkit-text-stroke: .7px #E0A200;
+    background: linear-gradient(#E0A200,#E0A200);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: -33rem 0;
@@ -143,7 +143,7 @@ section{
     top: 0;
     height: 100%;
     width: 0;
-    border-right: 2px solid #0ef;
+    border-right: 2px solid #E0A200;
     transform: translateY(-100px);
     opacity: 0;
     animation: CursorSlide 6s linear infinite,
@@ -214,12 +214,13 @@ section{
  .btn{
     height: 100%;
     width: 15rem;
-    color: #fff;
+    color:black;
     background: rgba(255,255,255,.1);
     border: .2rem solid rgba(255,255,255,.3);
     backdrop-filter: blur(5rem);
     border-radius: .8rem;
     font-size: 1.5rem;
+    background-color: #E0A200;
     cursor: pointer;
     display: inline-flex;
     justify-content: center;
@@ -236,7 +237,7 @@ section{
     height: 300%;
     width: 100%;
     background: linear-gradient(
-        #0f0a0a,#0ef,#0f0a0a,#0ef
+        #0f0a0a,#E0A200,#0f0a0a,#E0A200
     );
     z-index: -1;
     transition: .5s ease;
@@ -255,7 +256,7 @@ section{
     padding: .8rem;
     margin: 0 .5rem;
     border-radius: 50%;
-    color: #fff;
+    color: black;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -283,7 +284,7 @@ section{
     height: 300%;
     width: 100%;
     background: linear-gradient(
-        #0f0a0a,#0ef,#0f0a0a,#0ef
+        #0f0a0a,#E0A200,#0f0a0a,#E0A200
     );
     z-index: -1;
     transition: .5s ease;
@@ -297,7 +298,7 @@ i:hover::after{
     background: rgba(255,255,255,.1);
     border: .2rem solid rgba(255,255,255,.3);
     border-radius: 50%;
-    filter: drop-shadow(0 0 8rem #0ef);
+    filter: drop-shadow(0 0 8rem #E0A200);
     animation: Scale 1s ease forwards;
     scale: 0;
     animation-delay: 2s;
@@ -341,15 +342,15 @@ section.start-animation .title{
     }
 }
 .title span{
-    color: #0ef;
+    color: #E0A200;
 }
 .about img{
     height: 25rem;
     width: 25rem;
     background: rgba(255,255,255,.1);
-    border: .2rem solid rgba(255,255,255,.3);
+    border: .2rem solid #E0A200(255,255,255,.3);
     border-radius: 50%;
-    filter: drop-shadow(0 0 8rem #0ef);
+    filter: drop-shadow(0 0 2rem #E0A200);
     scale: 0;
 }
 section.start-animation .aboutImg{
@@ -425,7 +426,7 @@ section.start-animation .text-content2 .btn{
 /* education section */
 .row{
     display: flex;
-    column-gap: 4rem;
+    column-gap: 2rem;
     flex-wrap: wrap;
 }
 .column{
@@ -460,14 +461,14 @@ section.start-animation .column h2{
 }
 
 .box{
-    border-left: .2rem solid #0ef;
+    border-left: .2rem solid #E0A200;
 }
 .education-content {
     padding-left: 1.9rem;
 }
 .education-content .content{
     padding: 1.5rem;
-    border: .2rem solid #0ef;
+    border: .2rem solid #E0A200;
     background: rgba(255,255,255,.1);
     border-radius: .5rem;
     margin-bottom: 2rem;
@@ -481,14 +482,14 @@ section.start-animation .column h2{
     height: 1.4rem;
     width: 1.4rem;
     border-radius: 50%;
-    background: #0ef;
+    background:#E0A200;
 }
 .content .year{
     font-size: 1.5rem;
-    color: #0ef;
+    color: #E0A200;
 }
 .content .year i{
-    color: #0ef;
+    color: #E0A200;
     font-size: 1.5rem;
     margin-left: .5rem;
 }
@@ -566,7 +567,7 @@ section.start-animation .skill-box2{
 .bar{
     position: absolute;
     height: 100%;
-    background: #0ef;
+    background: #E0A200;
 }
 .bar-1{
     width: 90%;
@@ -612,7 +613,7 @@ section.start-animation input:nth-child(2){
     border: .2rem solid rgba(255,255,255,.3);
     outline: none;
     backdrop-filter: blur(10px);
-    filter: drop-shadow(0 0 100px #0ef);
+    filter: drop-shadow(0 0 100px #E0A200);
     border-radius: .8rem;
     gap: 2.5rem;
     margin: .7rem 0;
@@ -633,11 +634,11 @@ input::placeholder{
 }
 input:focus,
 input:valid{
-    border: .2rem solid #0ef;
+    border: .2rem solid #E0A200;
 }
 textarea:focus,
 textarea:valid{
-    border: .2rem solid #0ef;
+    border: .2rem solid #E0A200;
 }
 textarea{
     resize: none;
@@ -653,9 +654,9 @@ section.start-animation .btn{
     animation-delay: 1.4s;
 }
 .contact .btn:hover{
-    background:#0ef;
-    box-shadow: 0 0 .3rem #0ef,
-    0 0 .7rem #0ef;
+    background:#E0A200;
+    box-shadow: 0 0 .3rem #E0A200,
+    0 0 .7rem #E0A200;
 }
 /* footer */
 
@@ -675,7 +676,7 @@ footer i{
     justify-content: center;
     align-items: center;
     padding: .8rem; 
-    background:#0ef;
+    background:#E0A200;
     color: #0f0a0a;
     border-radius: 50%;
     font-size: 2.4rem;
@@ -767,7 +768,7 @@ footer i{
     padding-bottom: 70px;
 }
 .sub-tittle span{
-    color:#0ef ;
+    color:#E0A200 ;
 }
 .services-list{
     display: grid;
@@ -784,7 +785,7 @@ footer i{
     border-right: 10px;
     border-radius: 20px;
     transition: background 0.5s,transform 0.5s;
-    box-shadow: 1px 1px 20px #0ef;
+    box-shadow: 1px 1px 20px #E0A200;
 
 
 }
@@ -820,11 +821,11 @@ footer i{
     font-size: 30px;
     animation:slideTop is ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef, 0 0 20px #0ef;
+    box-shadow: 0 0 5px #E0A200, 0 0 20px #E0A200;
 
 }
 .read:hover{
-    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef, 0 0 50px #0ef, 0 0 100px #0ef;
+    box-shadow: 0 0 5px #E0A200, 0 0 25px #E0A200, 0 0 50px #E0A200, 0 0 100px #E0A200;
 }
 .services-list div:hover{
     transform:translateY(-10px);
@@ -833,7 +834,7 @@ footer i{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.1),#0ef);
+    background: linear-gradient(rgba(0,0,0,0.1),#E0A200);
     position: absolute;
     border-radius: 8px;
     left:0;
@@ -854,7 +855,7 @@ position: relative;
 top: -25px;
 }
 .layer h5{
-    color: #000;
+    color: #E0A200;
     font-size: 15px;
     font-weight: 600px;
     margin-bottom: 15px;
@@ -864,17 +865,7 @@ top: -25px;
     font-size: 20px;
     line-height:1.0 ;
 }
-/* .layer i{
-color: #ff004f;
-margin-top: 20px;
-font-size: 20px;
-/* background: #fff; */
-width: 60px;
-height: 60px;
-display: flex;
-align-items: center;
-border-radius: 50%;
-} */
+
 .row:hover img{
     transform: scale(1.1);
 }
@@ -917,7 +908,7 @@ border-radius: 50%;
 
 }
  h2 span{
-    color:#0ef;
+    color:#E0A200;
 }
 .description{
     font-size: 20px;
@@ -940,7 +931,7 @@ margin-top: 3px;
  h2 {
     font-size: 70px; /* Adjust size for better readability */
     /* margin-bottom: 1rem; */
-    color: #fff;
+    color: white;
     text-align: center;
 }
 .heading{
@@ -955,6 +946,64 @@ margin-top: 3px;
     gap: 4.5rem;
     flex-wrap: wrap;
     margin-top: 100px;
+}
+
+.profile-container {
+    height: 500px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 390px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #E0A200(0, 238, 255, 0.3) 10%, transparent 60%);
+    overflow: hidden;
+    box-shadow: 0 0 20px #E0A200, 0 0 40px #E0A200, 0 0 60px #E0A200; /* Initial glow */
+    animation: glowing 2s infinite alternate;
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 10px #E0A200, 0 0 20px #E0A200, 0 0 30px #E0A200;
+    }
+    100% {
+        box-shadow: 0 0 20px #E0A200, 0 0 40px #E0A200, 0 0 60px #E0A200;
+    }
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+@media (max-width: 320px) {
+    .profile-container {
+        height: 300px; /* Reduce height */
+        width: 100%; /* Adjust width to fit screen */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile {
+        width: 200px; /* Reduce size */
+        height: 200px;
+    }
+
+    .profile img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 /* Individual Card */
@@ -977,7 +1026,7 @@ margin-top: 3px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: #0ef;
+    border: #E0A200;
 }
 
 /* Text */
@@ -990,7 +1039,7 @@ margin-top: 3px;
 .card .btn2 {
     display: inline-block;
     padding: 0.8rem 1.5rem;
-    background:#0ef;
+    background:#E0A200;
     color: #000;
     text-decoration: none;
     font-weight: bold;
@@ -999,14 +1048,14 @@ margin-top: 3px;
 }
 
 .card .btn2:hover {
-    background: white;
-    color: #0ef;
+    background: #E0A200;
+    color: #E0A200;
 }
 
 /* Hover Effect */
 .card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 20px #0ef;
+    box-shadow: 0 10px 20px #E0A200;
 }
 .container1 {
     display: flex;
@@ -1022,11 +1071,15 @@ margin-top: 3px;
     text-align: center;
     /* background:; */
     padding: 20px;
+    border: 1px solid #E0A200;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 290px;
-    height: 350px;
-    box-shadow: 0 5px 15px rgba(0, 238, 255, 0.2);
+    height: 300px;
+    box-shadow: 0 5px 15px #E0A200(0, 238, 255, 0.2);
+}
+.certificate-box:hover{
+    background-color: #E0A200;
 }
 
 .im {
@@ -1047,14 +1100,14 @@ margin-top: 3px;
 
 
 .description {
-    color: #555;
+    color:white;
     margin-bottom: 15px;
     margin-top: 30px;
 }
 
 button {
-    background: #007BFF;
-    color: white;
+    background: #E0A200;
+    color: black;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
@@ -1064,7 +1117,7 @@ button {
 }
 
 button:hover {
-    background: #0056b3;
+    background: #E0A200;
 }
 @media (max-width: 480px) {
     .container {
@@ -1075,3 +1128,101 @@ button:hover {
         width: 90%;
     }
 }
+
+
+/* Project Section */
+.my-projects {
+    padding: 80px 10%;
+}
+
+/* Project Layout */
+.project {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    background: linear-gradient(135deg, #1e1e1e, #292929);
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 20px rgba(255, 204, 112, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Project Hover Effect */
+.project:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 30px rgba(255, 204, 112, 0.5);
+}
+
+/* Image Styling */
+.project-img img {
+    width: 350px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.project-img img:hover {
+    transform: scale(1.08);
+}
+
+/* Content Styling */
+.project-content {
+    max-width: 500px;
+}
+
+.project-content h3 {
+    font-size: 2rem;
+    color:#FEC305;
+    margin-bottom: 10px;
+}
+
+.project-content p {
+    font-size: 1.1rem;
+    color: #ddd;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+/* .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #FEC305;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    box-shadow: 0px 4px 15px rgba(255, 107, 107, 0.4);
+} */
+
+/* .btn:hover {
+    background: #FEC305;
+    box-shadow: 0px 4px 20px rgba(255, 107, 107, 0.6);
+} */
+
+/* Reverse Layout for Alternating Effect */
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 850px) {
+    .project {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .reverse {
+        flex-direction: column;
+    }
+    .project-img img {
+        width: 90%;
+    }
+    .project-content {
+        max-width: 90%;
+    }
+}
+
+
